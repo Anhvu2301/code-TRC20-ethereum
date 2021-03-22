@@ -343,7 +343,7 @@ contract MintableToken is StandardToken, Ownable {
 
   /**
    * @dev Function to mint tokens
-   * @param _to The address that will receive the minted tokens.
+   * @param _to The address that will receive the minsted tokens.
    * @param _amount The amount of tokens to mint.
    * @return A boolean that indicates if the operation was successful.
    */
@@ -376,7 +376,7 @@ contract MintableToken is StandardToken, Ownable {
 
 
 /**
- * @title Base contract for ThietPC token
+ * @title Base contract for Thiet PC token
  */
 contract ThietPC is MintableToken {
   string public name = "Thiet PC";
